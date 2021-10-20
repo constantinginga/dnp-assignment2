@@ -1,0 +1,17 @@
+[
+  {
+    "Username": "123",
+    "Password": "123",
+    "IsRegistered": true
+  },
+  {
+    "Username": "asd",
+    "Password": "asd",
+    "IsRegistered": true
+  },
+  {
+    "Username": "1234",
+    "Password": "1234",
+    "IsRegistered": true
+  }
+]

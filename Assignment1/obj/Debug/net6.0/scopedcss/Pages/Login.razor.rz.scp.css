@@ -1,0 +1,18 @@
+.login-container[b-wuri4gbtmu] {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-container > .error-message[b-wuri4gbtmu] {
+    margin-top: 1rem;
+    color: red;
+}
+
+.login-container > .input-container[b-wuri4gbtmu] {
+    display: flex;
+    gap: 0 1rem;
+}
+
+.login-container > .input-container > .form-control[b-wuri4gbtmu] {
+    flex: 1;
+}

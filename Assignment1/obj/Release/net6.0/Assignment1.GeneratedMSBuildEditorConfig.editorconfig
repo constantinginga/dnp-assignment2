@@ -1,0 +1,55 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Assignment1
+build_property.RootNamespace = Assignment1
+build_property.ProjectDir = C:\Users\ConstantinGinga\Desktop\Assignment1\Assignment1\
+build_property.RazorLangVersion = 5.0
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\ConstantinGinga\Desktop\Assignment1\Assignment1
+build_property._RazorSourceGeneratorDebug = 
+build_property._RazorSourceGeneratorHeapDumps = 
+
+[c:/Users/ConstantinGinga/Desktop/Assignment1/Assignment1/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/ConstantinGinga/Desktop/Assignment1/Assignment1/Pages/Edit.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/ConstantinGinga/Desktop/Assignment1/Assignment1/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/ConstantinGinga/Desktop/Assignment1/Assignment1/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/ConstantinGinga/Desktop/Assignment1/Assignment1/Pages/AddAdult.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkQWR1bHQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-r480d3p597
+
+[c:/Users/ConstantinGinga/Desktop/Assignment1/Assignment1/Pages/AdultList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWR1bHRMaXN0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-priedvckt8
+
+[c:/Users/ConstantinGinga/Desktop/Assignment1/Assignment1/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-d6tdo58m9p
+
+[c:/Users/ConstantinGinga/Desktop/Assignment1/Assignment1/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-sj69vyuofy
+
+[c:/Users/ConstantinGinga/Desktop/Assignment1/Assignment1/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/ConstantinGinga/Desktop/Assignment1/Assignment1/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope =

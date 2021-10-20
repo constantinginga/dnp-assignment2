@@ -1,0 +1,73 @@
+﻿@page "/add"
+@attribute [Authorize(Policy = "IsRegistered")]
+@using Assignment1.Models
+@using Assignment1.Data.Adults
+@inject NavigationManager NavigationManager
+@inject IAdultData AdultData
+
+<h3 class="page-header-h3">Add Adult</h3>
+<EditForm class="adult-form" Model="@newAdult" OnValidSubmit="@AddNewAdult">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+    <div class="form-group">
+        <p>First Name:</p>
+        <InputText class="form-control" placeholder="Enter first name" @bind-Value="newAdult.FirstName"/>
+    </div>
+    <div class="form-group">
+        <p>Last Name:</p>
+        <InputText class="form-control" placeholder="Enter last name" @bind-Value="newAdult.LastName"/>
+    </div>
+    <div class="form-group">
+        <p>Age:</p>
+        <InputNumber class="form-control" placeholder="Enter age" @bind-Value="newAdult.Age"/>
+    </div>
+    <div class="form-group">
+        <p>Weight:</p>
+        <InputNumber class="form-control" placeholder="Enter weight" @bind-Value="newAdult.Weight"/>
+    </div>
+    <div class="form-group">
+        <p>Height:</p>
+        <InputNumber class="form-control" placeholder="Enter height" @bind-Value="newAdult.Height"/>
+    </div>
+    <div class="form-group">
+        <p>Sex:</p>
+        <InputSelect class="custom-select" @bind-Value="newAdult.Sex">
+        <option disabled selected>Select sex</option>
+            @foreach (var value in Person.GENDERS) {
+                <option>@value</option>
+            }
+        </InputSelect>
+    </div>
+    <div class="form-group">
+        <p>Job Title:</p>
+        <InputText class="form-control" placeholder="Enter job title" @bind-Value="job.JobTitle"/>
+    </div>
+    <div class="form-group">
+        <p>Salary:</p>
+        <InputNumber class="form-control" placeholder="Enter salary" @bind-Value="job.Salary"/>
+    </div>
+    <div class="form-group">
+        <p>Hair Color (optional):</p>
+        <InputText class="form-control" placeholder="Enter hair color" @bind-Value="newAdult.HairColor"/>
+    </div>
+    <div class="form-group">
+        <p>Eye Color (optional):</p>
+        <InputText class="form-control" placeholder="Enter eye color" @bind-Value="newAdult.EyeColor"/>
+    </div>
+    <button class="btn btn-dark" type="submit">Add</button>
+</EditForm>
+
+@code {
+    private Adult newAdult = new Adult();
+    private Job job = new Job();
+
+    private void AddNewAdult()
+    {
+        newAdult.HairColor = newAdult.HairColor ?? "Unknown";
+        newAdult.EyeColor = newAdult.EyeColor ?? "Unknown";
+        job.JobTitle = job.JobTitle ?? "Unknown";
+        newAdult.JobTitle = job;
+        AdultData.Add(newAdult);
+        NavigationManager.NavigateTo("/list");
+    }
+}

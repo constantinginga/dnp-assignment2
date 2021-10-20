@@ -1,0 +1,25 @@
+body[b-priedvckt8] {
+}
+
+.filter-container[b-priedvckt8] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 2rem;
+    margin-bottom: 2rem;
+}
+
+.filter-container > .filter-property[b-priedvckt8] {
+    flex: 1;
+}
+
+.filter-container > .filter-text-input[b-priedvckt8],
+.filter-container >  .filter-select-sex[b-priedvckt8] {
+    flex: 3;
+}
+
+.delete-btn[b-priedvckt8],
+.edit-btn[b-priedvckt8] {
+    background: transparent;
+    border: none;
+}

@@ -1,0 +1,77 @@
+﻿@page "/Edit/{Id:int}"
+@using Assignment1.Data.Adults;
+@using Assignment1.Models;
+@inject IAdultData AdultData;
+@inject NavigationManager NavigationManager;
+<h3 class="page-header-h3">Edit adult with id <span style="color: blue;">@Id</span></h3>
+
+@if (adultToEdit == null)
+{
+    <p>Adult not found!</p>
+}
+else
+{
+    <EditForm class="adult-form" Model="@adultToEdit" OnValidSubmit="@Save">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+        <div class="form-group">
+            <p>First Name:</p>
+            <InputText class="form-control" placeholder="Enter first name" @bind-Value="adultToEdit.FirstName" />
+        </div>
+        <div class="form-group">
+            <p>Last Name:</p>
+            <InputText class="form-control" placeholder="Enter last name" @bind-Value="adultToEdit.LastName" />
+        </div>
+        <div class="form-group">
+            <p>Age:</p>
+            <InputNumber class="form-control" placeholder="Enter age" @bind-Value="adultToEdit.Age" />
+        </div>
+        <div class="form-group">
+            <p>Weight:</p>
+            <InputNumber class="form-control" placeholder="Enter weight" @bind-Value="adultToEdit.Weight" />
+        </div>
+        <div class="form-group">
+            <p>Height:</p>
+            <InputNumber class="form-control" placeholder="Enter height" @bind-Value="adultToEdit.Height" />
+        </div>
+        <div class="form-group">
+            <p>Job Title:</p>
+            <InputText class="form-control" placeholder="Enter job title" @bind-Value="job.JobTitle" />
+        </div>
+        <div class="form-group">
+            <p>Salary:</p>
+            <InputNumber class="form-control" placeholder="Enter salary" @bind-Value="job.Salary" />
+        </div>
+        <div class="form-group">
+            <p>Hair Color (optional):</p>
+            <InputText class="form-control" placeholder="Enter hair color" @bind-Value="adultToEdit.HairColor" />
+        </div>
+        <button class="btn btn-success" type="submit">Save</button>
+        <button class="btn btn-secondary" href="/list">Back</button>
+    </EditForm>
+}
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    private Adult adultToEdit;
+
+    private Job job;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await Task.Run(() =>
+        {
+            adultToEdit = AdultData.Get(Id);
+            job = adultToEdit.JobTitle != null ? job = adultToEdit.JobTitle : job = new Job();
+        });
+    }
+
+    private void Save()
+    {
+        adultToEdit.JobTitle = job;
+        AdultData.UpdateAdult(adultToEdit);
+        NavigationManager.NavigateTo("/list");
+    }
+}
