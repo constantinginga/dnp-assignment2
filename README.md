@@ -1,3 +1,3 @@
-# DNP Assignment 1
+# DNP Assignment 2
 
-> Practicing Blazor
+> Practicing Blazor (continued)
