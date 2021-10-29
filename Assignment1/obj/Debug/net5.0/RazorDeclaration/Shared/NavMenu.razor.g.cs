@@ -13,70 +13,70 @@ namespace Assignment1.Shared
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "C:\Users\ConstantinGinga\Desktop\fromgit\dnp-assignment1\Assignment1\_Imports.razor"
+#line 1 "C:\Users\coste\Desktop\School\3rd Semester\DNP1\fromgit\dnp-assignment1\Assignment1\_Imports.razor"
 using System.Net.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "C:\Users\ConstantinGinga\Desktop\fromgit\dnp-assignment1\Assignment1\_Imports.razor"
+#line 2 "C:\Users\coste\Desktop\School\3rd Semester\DNP1\fromgit\dnp-assignment1\Assignment1\_Imports.razor"
 using Microsoft.AspNetCore.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "C:\Users\ConstantinGinga\Desktop\fromgit\dnp-assignment1\Assignment1\_Imports.razor"
+#line 3 "C:\Users\coste\Desktop\School\3rd Semester\DNP1\fromgit\dnp-assignment1\Assignment1\_Imports.razor"
 using Microsoft.AspNetCore.Components.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "C:\Users\ConstantinGinga\Desktop\fromgit\dnp-assignment1\Assignment1\_Imports.razor"
+#line 4 "C:\Users\coste\Desktop\School\3rd Semester\DNP1\fromgit\dnp-assignment1\Assignment1\_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "C:\Users\ConstantinGinga\Desktop\fromgit\dnp-assignment1\Assignment1\_Imports.razor"
+#line 5 "C:\Users\coste\Desktop\School\3rd Semester\DNP1\fromgit\dnp-assignment1\Assignment1\_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "C:\Users\ConstantinGinga\Desktop\fromgit\dnp-assignment1\Assignment1\_Imports.razor"
+#line 6 "C:\Users\coste\Desktop\School\3rd Semester\DNP1\fromgit\dnp-assignment1\Assignment1\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "C:\Users\ConstantinGinga\Desktop\fromgit\dnp-assignment1\Assignment1\_Imports.razor"
+#line 7 "C:\Users\coste\Desktop\School\3rd Semester\DNP1\fromgit\dnp-assignment1\Assignment1\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web.Virtualization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "C:\Users\ConstantinGinga\Desktop\fromgit\dnp-assignment1\Assignment1\_Imports.razor"
+#line 8 "C:\Users\coste\Desktop\School\3rd Semester\DNP1\fromgit\dnp-assignment1\Assignment1\_Imports.razor"
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "C:\Users\ConstantinGinga\Desktop\fromgit\dnp-assignment1\Assignment1\_Imports.razor"
+#line 9 "C:\Users\coste\Desktop\School\3rd Semester\DNP1\fromgit\dnp-assignment1\Assignment1\_Imports.razor"
 using Assignment1;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "C:\Users\ConstantinGinga\Desktop\fromgit\dnp-assignment1\Assignment1\_Imports.razor"
+#line 10 "C:\Users\coste\Desktop\School\3rd Semester\DNP1\fromgit\dnp-assignment1\Assignment1\_Imports.razor"
 using Assignment1.Shared;
 
 #line default
@@ -90,7 +90,7 @@ using Assignment1.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 40 "C:\Users\ConstantinGinga\Desktop\fromgit\dnp-assignment1\Assignment1\Shared\NavMenu.razor"
+#line 40 "C:\Users\coste\Desktop\School\3rd Semester\DNP1\fromgit\dnp-assignment1\Assignment1\Shared\NavMenu.razor"
        
     private bool collapseNavMenu = true;
 

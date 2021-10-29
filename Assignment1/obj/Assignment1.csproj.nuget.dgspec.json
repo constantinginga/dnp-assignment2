@@ -1,26 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ConstantinGinga\\Desktop\\fromgit\\dnp-assignment1\\Assignment1\\Assignment1.csproj": {}
+    "C:\\Users\\coste\\Desktop\\School\\3rd Semester\\DNP1\\fromgit\\dnp-assignment1\\Assignment1\\Assignment1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ConstantinGinga\\Desktop\\fromgit\\dnp-assignment1\\Assignment1\\Assignment1.csproj": {
+    "C:\\Users\\coste\\Desktop\\School\\3rd Semester\\DNP1\\fromgit\\dnp-assignment1\\Assignment1\\Assignment1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ConstantinGinga\\Desktop\\fromgit\\dnp-assignment1\\Assignment1\\Assignment1.csproj",
+        "projectUniqueName": "C:\\Users\\coste\\Desktop\\School\\3rd Semester\\DNP1\\fromgit\\dnp-assignment1\\Assignment1\\Assignment1.csproj",
         "projectName": "Assignment1",
-        "projectPath": "C:\\Users\\ConstantinGinga\\Desktop\\fromgit\\dnp-assignment1\\Assignment1\\Assignment1.csproj",
-        "packagesPath": "C:\\Users\\ConstantinGinga\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ConstantinGinga\\Desktop\\fromgit\\dnp-assignment1\\Assignment1\\obj\\",
+        "projectPath": "C:\\Users\\coste\\Desktop\\School\\3rd Semester\\DNP1\\fromgit\\dnp-assignment1\\Assignment1\\Assignment1.csproj",
+        "packagesPath": "C:\\Users\\coste\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\coste\\Desktop\\School\\3rd Semester\\DNP1\\fromgit\\dnp-assignment1\\Assignment1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ConstantinGinga\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\coste\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -62,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21463.6\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

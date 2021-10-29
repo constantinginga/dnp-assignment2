@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "jUdF9yXlIsjteRD1U3gNNVWvwg30MlDQLaav7fpfoa37GcH6O6o5bddSdjQ1GGxCPsJ4N7f5yk/SIuq193htqg==",
+  "dgSpecHash": "A8vYBabQT1xWM46wbSBhMiym2MR2xYIS6CM68MhyJhDkD6CbHsRMr7p/t03ArAUKI2iwoN1dt06s8qofBOJ+PQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ConstantinGinga\\Desktop\\fromgit\\dnp-assignment1\\Assignment1\\Assignment1.csproj",
+  "projectFilePath": "C:\\Users\\coste\\Desktop\\School\\3rd Semester\\DNP1\\fromgit\\dnp-assignment1\\Assignment1\\Assignment1.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\ConstantinGinga\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+    "C:\\Users\\coste\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],
   "logs": []
 }

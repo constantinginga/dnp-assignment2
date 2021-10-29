@@ -44,7 +44,7 @@ namespace Assignment1.Data.Users
             return await Task.FromResult(new AuthenticationState(cachedClaimsPrincipal));
         }
 
-        public void ValidateLogin(string username, string password)
+        public async Task ValidateLogin(string username, string password)
         {
             Console.WriteLine("Validating log in");
             if (string.IsNullOrEmpty(username)) throw new Exception("Enter username");
@@ -53,11 +53,11 @@ namespace Assignment1.Data.Users
             ClaimsIdentity identity = new ClaimsIdentity();
             try
             {
-                User user = userData.Get(username, password);
+                User user = await userData.Get(username, password);
                 Console.WriteLine(user);
                 identity = SetupClaimsForUser(user);
                 string serialisedData = JsonSerializer.Serialize(user);
-                jsRuntime.InvokeVoidAsync("sessionStorage.setItem", "currentUser", serialisedData);
+                await jsRuntime.InvokeVoidAsync("sessionStorage.setItem", "currentUser", serialisedData);
                 cachedUser = user;
             }
             catch (Exception e)

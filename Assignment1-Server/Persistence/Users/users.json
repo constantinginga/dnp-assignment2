@@ -13,5 +13,15 @@
     "Username": "1234",
     "Password": "1234",
     "IsRegistered": true
+  },
+  {
+    "Username": "User123",
+    "Password": "User123",
+    "IsRegistered": true
+  },
+  {
+    "Username": "asdf",
+    "Password": "asdf",
+    "IsRegistered": true
   }
 ]

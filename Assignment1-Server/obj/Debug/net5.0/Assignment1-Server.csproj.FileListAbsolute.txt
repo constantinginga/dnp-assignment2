@@ -28,3 +28,35 @@ C:\Users\ConstantinGinga\Desktop\fromgit\dnp-assignment1\Assignment1-Server\obj\
 C:\Users\ConstantinGinga\Desktop\fromgit\dnp-assignment1\Assignment1-Server\obj\Debug\net5.0\Assignment1-Server.genruntimeconfig.cache
 C:\Users\ConstantinGinga\Desktop\fromgit\dnp-assignment1\Assignment1-Server\bin\Debug\net5.0\Persistence\Adults\adults.json
 C:\Users\ConstantinGinga\Desktop\fromgit\dnp-assignment1\Assignment1-Server\bin\Debug\net5.0\Persistence\Users\users.json
+C:\Users\coste\Desktop\School\3rd Semester\DNP1\fromgit\dnp-assignment1\Assignment1-Server\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\coste\Desktop\School\3rd Semester\DNP1\fromgit\dnp-assignment1\Assignment1-Server\bin\Debug\net5.0\appsettings.json
+C:\Users\coste\Desktop\School\3rd Semester\DNP1\fromgit\dnp-assignment1\Assignment1-Server\bin\Debug\net5.0\Persistence\Adults\adults.json
+C:\Users\coste\Desktop\School\3rd Semester\DNP1\fromgit\dnp-assignment1\Assignment1-Server\bin\Debug\net5.0\Persistence\Users\users.json
+C:\Users\coste\Desktop\School\3rd Semester\DNP1\fromgit\dnp-assignment1\Assignment1-Server\bin\Debug\net5.0\Assignment1-Server.exe
+C:\Users\coste\Desktop\School\3rd Semester\DNP1\fromgit\dnp-assignment1\Assignment1-Server\bin\Debug\net5.0\Assignment1-Server.deps.json
+C:\Users\coste\Desktop\School\3rd Semester\DNP1\fromgit\dnp-assignment1\Assignment1-Server\bin\Debug\net5.0\Assignment1-Server.runtimeconfig.json
+C:\Users\coste\Desktop\School\3rd Semester\DNP1\fromgit\dnp-assignment1\Assignment1-Server\bin\Debug\net5.0\Assignment1-Server.runtimeconfig.dev.json
+C:\Users\coste\Desktop\School\3rd Semester\DNP1\fromgit\dnp-assignment1\Assignment1-Server\bin\Debug\net5.0\Assignment1-Server.dll
+C:\Users\coste\Desktop\School\3rd Semester\DNP1\fromgit\dnp-assignment1\Assignment1-Server\bin\Debug\net5.0\ref\Assignment1-Server.dll
+C:\Users\coste\Desktop\School\3rd Semester\DNP1\fromgit\dnp-assignment1\Assignment1-Server\bin\Debug\net5.0\Assignment1-Server.pdb
+C:\Users\coste\Desktop\School\3rd Semester\DNP1\fromgit\dnp-assignment1\Assignment1-Server\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\coste\Desktop\School\3rd Semester\DNP1\fromgit\dnp-assignment1\Assignment1-Server\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\coste\Desktop\School\3rd Semester\DNP1\fromgit\dnp-assignment1\Assignment1-Server\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\coste\Desktop\School\3rd Semester\DNP1\fromgit\dnp-assignment1\Assignment1-Server\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\coste\Desktop\School\3rd Semester\DNP1\fromgit\dnp-assignment1\Assignment1-Server\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\coste\Desktop\School\3rd Semester\DNP1\fromgit\dnp-assignment1\Assignment1-Server\obj\Debug\net5.0\Assignment1-Server.csproj.AssemblyReference.cache
+C:\Users\coste\Desktop\School\3rd Semester\DNP1\fromgit\dnp-assignment1\Assignment1-Server\obj\Debug\net5.0\Assignment1-Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\coste\Desktop\School\3rd Semester\DNP1\fromgit\dnp-assignment1\Assignment1-Server\obj\Debug\net5.0\Assignment1-Server.AssemblyInfoInputs.cache
+C:\Users\coste\Desktop\School\3rd Semester\DNP1\fromgit\dnp-assignment1\Assignment1-Server\obj\Debug\net5.0\Assignment1-Server.AssemblyInfo.cs
+C:\Users\coste\Desktop\School\3rd Semester\DNP1\fromgit\dnp-assignment1\Assignment1-Server\obj\Debug\net5.0\Assignment1-Server.csproj.CoreCompileInputs.cache
+C:\Users\coste\Desktop\School\3rd Semester\DNP1\fromgit\dnp-assignment1\Assignment1-Server\obj\Debug\net5.0\Assignment1-Server.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\coste\Desktop\School\3rd Semester\DNP1\fromgit\dnp-assignment1\Assignment1-Server\obj\Debug\net5.0\Assignment1-Server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\coste\Desktop\School\3rd Semester\DNP1\fromgit\dnp-assignment1\Assignment1-Server\obj\Debug\net5.0\staticwebassets\Assignment1-Server.StaticWebAssets.Manifest.cache
+C:\Users\coste\Desktop\School\3rd Semester\DNP1\fromgit\dnp-assignment1\Assignment1-Server\obj\Debug\net5.0\staticwebassets\Assignment1-Server.StaticWebAssets.xml
+C:\Users\coste\Desktop\School\3rd Semester\DNP1\fromgit\dnp-assignment1\Assignment1-Server\obj\Debug\net5.0\scopedcss\bundle\Assignment1-Server.styles.css
+C:\Users\coste\Desktop\School\3rd Semester\DNP1\fromgit\dnp-assignment1\Assignment1-Server\obj\Debug\net5.0\Assignment1-Server.RazorTargetAssemblyInfo.cache
+C:\Users\coste\Desktop\School\3rd Semester\DNP1\fromgit\dnp-assignment1\Assignment1-Server\obj\Debug\net5.0\Assignment1-Server.csproj.CopyComplete
+C:\Users\coste\Desktop\School\3rd Semester\DNP1\fromgit\dnp-assignment1\Assignment1-Server\obj\Debug\net5.0\Assignment1-Server.dll
+C:\Users\coste\Desktop\School\3rd Semester\DNP1\fromgit\dnp-assignment1\Assignment1-Server\obj\Debug\net5.0\ref\Assignment1-Server.dll
+C:\Users\coste\Desktop\School\3rd Semester\DNP1\fromgit\dnp-assignment1\Assignment1-Server\obj\Debug\net5.0\Assignment1-Server.pdb
+C:\Users\coste\Desktop\School\3rd Semester\DNP1\fromgit\dnp-assignment1\Assignment1-Server\obj\Debug\net5.0\Assignment1-Server.genruntimeconfig.cache
